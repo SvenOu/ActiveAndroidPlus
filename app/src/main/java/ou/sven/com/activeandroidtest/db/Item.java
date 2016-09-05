@@ -4,6 +4,8 @@ import com.activeandroid.Model;
 import com.activeandroid.annotation.Column;
 import com.activeandroid.annotation.Table;
 
+import java.util.Date;
+
 @Table(name = "Items")
 public class Item extends Model {
     // This is the unique id given by the server
@@ -15,6 +17,9 @@ public class Item extends Model {
     // This is an association to another activeandroid model
     @Column(name = "Category", onUpdate = Column.ForeignKeyAction.CASCADE, onDelete = Column.ForeignKeyAction.CASCADE)
     private Category category;
+
+    @Column(name = "create_date")
+    private Date createDate;
 
     // Make sure to have a default constructor for every ActiveAndroid model
     public Item(){
@@ -50,5 +55,13 @@ public class Item extends Model {
 
     public void setCategory(Category category) {
         this.category = category;
+    }
+
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
     }
 }

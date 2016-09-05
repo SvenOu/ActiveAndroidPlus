@@ -8,6 +8,7 @@ import com.activeandroid.query.Delete;
 import com.activeandroid.query.Select;
 import com.activeandroid.util.Log;
 
+import java.util.Date;
 import java.util.List;
 
 import ou.sven.com.activeandroidtest.db.Category;
@@ -31,7 +32,9 @@ public class Main2Activity extends AppCompatActivity {
         }
         restaurants.setCategoryId(1);
         restaurants.setName("Restaurants222");
+        restaurants.setCreateDate(new Date());
         restaurants.save();
+
 
 // Create an item
         Item item = Model.load(Item.class, 1);

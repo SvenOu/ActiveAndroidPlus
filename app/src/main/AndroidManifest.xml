@@ -28,6 +28,8 @@
                 <data android:mimeType="vnd.android.cursor.item/vnd.google.note" />
             </intent-filter>
         </activity>
-    </application>
 
+        <meta-data android:name="AA_SERIALIZERS"
+            android:value="ou.sven.com.activeandroidtest.db.UtilDateSerializer" />
+    </application>
 </manifest>

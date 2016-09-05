@@ -4,6 +4,7 @@ import com.activeandroid.Model;
 import com.activeandroid.annotation.Column;
 import com.activeandroid.annotation.Table;
 
+import java.util.Date;
 import java.util.List;
 
 @Table(name = "Categories")
@@ -14,6 +15,9 @@ public class Category extends Model {
     // This is a regular field
     @Column(name = "name")
     private String name;
+
+    @Column(name = "create_date")
+    private Date createDate;
 
     // Make sure to have a default constructor for every ActiveAndroid model
     public Category(){
@@ -39,5 +43,13 @@ public class Category extends Model {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
     }
 }
