@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="26">
+
+    <statement><![CDATA[ALTER TABLE user_profile ADD old_profile_id TEXT;]]></statement>
+
+    <statement><![CDATA[UPDATE conf_general SET param_value = '26', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>

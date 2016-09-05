@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="3">
+
+	<statement><![CDATA[DELETE FROM eval_book WHERE book_id LIKE 'DV-004-001%';]]></statement>
+	<statement><![CDATA[DELETE FROM lib_book WHERE book_id = 'DV-004-001' OR parent_id='DV-004-001';]]></statement>
+	
+	<statement><![CDATA[UPDATE conf_general SET param_value = '2', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>

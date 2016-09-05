@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="7">
+
+	<statement><![CDATA[DELETE FROM sync_data WHERE type != 'profile';]]></statement>
+	<statement><![CDATA[DELETE FROM eval_book;]]></statement>
+	<statement><![CDATA[DELETE FROM eval_perform;]]></statement>
+	<statement><![CDATA[DELETE FROM coupons;]]></statement>
+	<statement><![CDATA[UPDATE conf_general SET param_value = '6', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="8">
+
+	<statement><![CDATA[ALTER TABLE coupons ADD applicable_area TEXT NOT NULL DEFAULT 'National';]]></statement>
+	<statement><![CDATA[ALTER TABLE user_profile ADD zip TEXT;]]></statement>
+
+	<statement><![CDATA[CREATE TABLE conf_zipcode_area (country_code TEXT,	zip_code TEXT NOT NULL, area TEXT NOT NULL, CONSTRAINT PK_conf_zipcode_area PRIMARY KEY (zip_code));]]></statement>
+
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78501','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78502','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78503','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78504','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78505','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78516','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75837','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75838','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75839','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75840','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75843','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75849','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75857','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75858','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75860','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','75862','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78563','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78765','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78770','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78572','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78573','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78576','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78577','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78579','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78589','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78595','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78596','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78599','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78536','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78545','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78547','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78548','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78582','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78584','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78585','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78588','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78591','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78561','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78569','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78580','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78590','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78594','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78598','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78520','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78521','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78526','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78575','RGV');]]></statement>
+	<statement><![CDATA[INSERT INTO conf_zipcode_area(country_code,zip_code,area) VALUES('US','78593','RGV');]]></statement>
+
+	<statement><![CDATA[UPDATE conf_general SET param_value = '7', update_time = CURRENT_TIMESTAMP WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>

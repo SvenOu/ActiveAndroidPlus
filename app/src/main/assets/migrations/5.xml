@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="5">
+	<statement><![CDATA[ALTER TABLE user_profile ADD COLUMN register_date DATETIME;]]></statement>
+	<statement><![CDATA[ALTER TABLE user_profile ADD COLUMN last_login_time DATETIME;]]></statement>
+	<statement><![CDATA[UPDATE user_profile SET register_date = strftime('now') WHERE first_name NOT NULL AND register_date IS NULL;]]></statement>
+	<statement><![CDATA[UPDATE conf_general SET param_value = '4', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+</sql>

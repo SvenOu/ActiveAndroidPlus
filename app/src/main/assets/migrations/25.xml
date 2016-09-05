@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="25">
+    <!--
+        Table name: receipt_file_info
+
+        file_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        file_name TEXT NOT NULL,
+        type TEXT NOT NULL,
+        size INTEGER NOT NULL,
+        file_create_date DATETIME,  //文件的创建日期
+        file_modify_date DATETIME,  //文件的修改日期
+        file_path TEXT NOT NULL,
+        create_date DATETIME NOT NULL   //当前记录的插入日期
+
+    -->
+    <statement><![CDATA[CREATE TABLE receipt_file_info(file_id INTEGER PRIMARY KEY AUTOINCREMENT,file_name TEXT NOT NULL,type TEXT NOT NULL,size INTEGER NOT NULL,file_create_date DATETIME,file_modify_date DATETIME, file_path TEXT NOT NULL, create_date DATETIME NOT NULL);]]></statement>
+
+    <statement><![CDATA[UPDATE conf_general SET param_value = '25', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>
+

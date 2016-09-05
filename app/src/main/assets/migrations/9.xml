@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="9">
+
+	<statement><![CDATA[CREATE TABLE "user_rewards" ("profile_id" TEXT PRIMARY KEY  NOT NULL , "visits" INTEGER, "rewards" INTEGER, "surveys" INTEGER, "update_date" DATETIME, "create_date" DATETIME, CONSTRAINT FK_user_rewards_user_profile FOREIGN KEY (profile_id)REFERENCES user_profile(profile_id));]]></statement>
+
+	<statement><![CDATA[UPDATE eval_perform SET status = 'X' WHERE status= 'P' AND app_version in ('0.8','0.9')]]></statement>
+
+	<statement><![CDATA[UPDATE conf_general SET param_value = '8', update_time = CURRENT_TIMESTAMP WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>

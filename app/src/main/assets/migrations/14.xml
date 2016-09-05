@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="14">
+	<statement><![CDATA[CREATE TABLE user_profile_ext(profile_id TEXT NOT NULL,param_id TEXT NOT NULL,param_name TEXT NOT NULL,param_value TEXT,enabled NUMERIC NOT NULL DEFAULT 1,CONSTRAINT PK_user_profile_ext PRIMARY KEY (profile_id, param_id));]]></statement>
+	<statement><![CDATA[CREATE TABLE user_device(profile_id TEXT,app_id TEXT,app_version TEXT,app_version_number INTEGER,model TEXT,device_name TEXT,system_name TEXT,system_version TEXT,language TEXT,country TEXT,carrier_name TEXT,mcc TEXT,mnc TEXT,network TEXT,CONSTRAINT PK_user_device PRIMARY KEY (profile_id),CONSTRAINT FK_user_device_user_profile FOREIGN KEY (profile_id)REFERENCES user_profile(profile_id));]]></statement>
+    
+    <statement><![CDATA[INSERT INTO user_profile_ext(profile_id,param_id,param_name,param_value,enabled) VALUES('TEMPLATE','UP000001','visit_freq','',1)]]></statement>
+    <statement><![CDATA[INSERT INTO user_profile_ext(profile_id,param_id,param_name,param_value,enabled) VALUES('TEMPLATE','UP000002','my_churchs','',1)]]></statement>
+    
+    
+	<statement><![CDATA[UPDATE conf_general SET param_value = '14', update_time = CURRENT_TIMESTAMP WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>

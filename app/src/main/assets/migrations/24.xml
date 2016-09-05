@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="24">
+    <statement><![CDATA[INSERT INTO user_profile_ext(profile_id,param_id,param_name,param_value,enabled) VALUES('TEMPLATE','UP000004','home_location','',1)]]></statement>
+
+    <statement><![CDATA[ALTER TABLE coupons ADD trigger_type TEXT]]></statement>
+    <statement><![CDATA[ALTER TABLE coupons ADD web_url TEXT]]></statement>
+
+    <statement><![CDATA[UPDATE conf_general SET param_value = '24', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+</sql>
+

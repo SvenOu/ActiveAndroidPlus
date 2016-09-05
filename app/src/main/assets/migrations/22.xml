@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="22">
+    <statement><![CDATA[ALTER TABLE user_profile ADD img_url TEXT;]]></statement>
+    <statement><![CDATA[ALTER TABLE user_profile ADD captured INTEGER NOT NULL DEFAULT 0;]]></statement>
+    <statement><![CDATA[ALTER TABLE user_profile ADD udvn INTEGER NOT NULL DEFAULT 0;]]></statement>
+    <statement><![CDATA[UPDATE conf_general SET param_value = '22', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+</sql>
+

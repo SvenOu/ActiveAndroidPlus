@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sql version="19">
+    <statement><![CDATA[ALTER TABLE coupons ADD data_type TEXT null;]]></statement>
+    <statement><![CDATA[UPDATE conf_general SET param_value = '19', update_time = CURRENT_TIMESTAMP WHERE param_name = 'DB_VERSION';]]></statement>
+</sql>

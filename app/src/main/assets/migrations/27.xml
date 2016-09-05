@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="27">
+<!--
+        Table name: sticker_info
+        file_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        sticker_id TEXT NOT NULL,
+        udts INTEGER NOT NULL,
+        status TEXT NOT NULL,
+        display_order INTEGER NOT NULL,
+        update_by TEXT,
+        update_date DATETIME,
+        path TEXT NOT NULL,
+        name TEXT,
+        desc TEXT
+-->
+    <statement><![CDATA[CREATE TABLE sticker_info(file_id INTEGER PRIMARY KEY AUTOINCREMENT,sticker_id TEXT NOT NULL,udts INTEGER NOT NULL,status TEXT NOT NULL,display_order INTEGER NOT NULL,update_by TEXT, update_date DATETIME, path TEXT NOT NULL, name TEXT, desc TEXT);]]></statement>
+
+    <statement><![CDATA[UPDATE conf_general SET param_value = '27', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>
+

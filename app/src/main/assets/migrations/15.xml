@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="15">
+	<statement><![CDATA[ALTER TABLE coupons ADD COLUMN star_quantity INTEGER;]]></statement>
+	<statement><![CDATA[INSERT INTO user_profile_ext(profile_id,param_id,param_name,param_value,enabled) VALUES('TEMPLATE','UP000003','subscribe_email','0',1);]]></statement>
+	<statement><![CDATA[UPDATE conf_general SET param_value = '15', update_time = CURRENT_TIMESTAMP WHERE param_name = 'DB_VERSION';]]></statement>
+</sql>

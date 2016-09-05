@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="20">
+    <statement><![CDATA[CREATE TABLE promo_online_config(param_name TEXT, param_value TEXT, param_format TEXT, CONSTRAINT PK_promo_online_config PRIMARY KEY (param_name));]]></statement>
+    <statement><![CDATA[CREATE TABLE promo_conf_activitity(id TEXT,name TEXT,label_en TEXT,label_es TEXT,url TEXT,effective_date DATETIME,expire_date DATETIME,active NUMERIC);]]></statement>
+    <statement><![CDATA[UPDATE conf_general SET param_value = '20', update_time = CURRENT_TIMESTAMP WHERE param_name = 'DB_VERSION';]]></statement>
+</sql>
+

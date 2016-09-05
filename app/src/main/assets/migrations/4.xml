@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="4">
+
+	<statement><![CDATA[UPDATE trans_book SET desc0='Me sentí respetado', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Me sentí respetado durante el servicio de hoy', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-001-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Restaurante Exterior', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El estacionamiento y auto servicio estuvieron limpios, iluminados y en buen estado?', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-002-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Proceso de pedido', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Ordene:', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Alitas de pollo originales', desc1='PD00000001.png' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Sandwich de pollo original', desc1='PD00000002.png' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Sandwich doble de pollo y queso', desc1='PD00000003.png' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Buiscuits', desc1='PD00000004.png' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Papas a la francesa', desc1='PD00000005.png' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001-005' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Salsa cremosa de jalapeño', desc1='PD00000006.png' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001-006' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Salsa BBQ', desc1='PD00000007.png' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001-007' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pay de Manzana', desc1='PD00000008.png' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001-008' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pastel de Fresas', desc1='PD00000009.png' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-001-009' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El menú fué fácil de leer', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='La voz del personal del auto servicio fué fácil de entender', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El personal fué respetuoso, amigable y servicial durante el proceso de la orden?', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi orden fue precisa', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-004-005' AND language_code='es']]></statement>
+
+	<statement><![CDATA[UPDATE trans_book SET desc0='Servicio al cliente', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-005' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Me atendieron rápidamente y de una manera respetuosa y amable.', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-005-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi tiempo de espera fue menos de 5 minutos?', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-005-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El personal fué atento y amigable?', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-005-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Fuí agradecido cordialmente e invitado otra vez?', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-005-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Orden', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-006' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Todo lo que ordené fué proporcionado correctamente y cordialmente?', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-006-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Recibí los condimentos necesarios y cubiertos (p.ej, servilletas, catsup, tenedor,popote, etc)', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-006-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi comida  y bebidas estuvieron a la temperatura correcta?', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-006-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='La comida fué preparada a mi gusto y deliciosa?', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-006-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Clasificación de Church''s', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-007' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pienso regresar a Pollo Church''s pronto', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-007-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Por favor, califique su experiencia:', desc1='' WHERE version_id='CH.DT.2012.08' AND book_id='DV-007-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Me sentí respetado', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Me sentí respetado durante el servicio de hoy', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-001-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Exterior del Restaurante ', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El estacionamiento y establecimiento estuvieron limpios, iluminados y en buen estado', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-002-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Interior del Restaurante', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-003' AND language_code='es']]></statement>
+
+	<statement><![CDATA[UPDATE trans_book SET desc0='El vestíbulo y la  recepción estuvieron limpios y en buen estado', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-003-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='La estación de condimentos estaba limpia y bien equipada', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-003-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El comedor estaba limpio y bien cuidado', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-003-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Los baños estaban limpios, bien equipados y sin mal olor', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-003-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Proceso de pedido', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pedí:', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Alitas de pollo originales', desc1='PD00000001.png' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Sandwich de pollo original', desc1='PD00000002.png' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Sandwich doble de pollo y queso', desc1='PD00000003.png' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Buiscuits', desc1='PD00000004.png' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Papas a la francesa', desc1='PD00000005.png' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001-005' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Salsa cremosa de jalapeño', desc1='PD00000006.png' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001-006' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Salsa BBQ', desc1='PD00000007.png' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001-007' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pastel de Manzana', desc1='PD00000008.png' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001-008' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pastel de Fresas', desc1='PD00000009.png' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-001-009' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El menú fué fácil de leer', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-002' AND language_code='es']]></statement>
+
+	<statement><![CDATA[UPDATE trans_book SET desc0='La voz del personal del auto servicio fué fácil de entender', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El personal fue respetuoso, amigable y servicial durante el proceso de la orden?', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi orden fue precisa', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-004-005' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Servicio al cliente', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-005' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Me atendieron rápidamente y de una manera respetuosa y amable.', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-005-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi tiempo de espera fue menos de 5 minutos?', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-005-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El personal fué atento y amigable?', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-005-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Fuí agradecido cordialmente e invitado otra vez?', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-005-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Orden', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-006' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Todo lo que ordené fué proporcionado correctamente y cordialmente?', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-006-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Recibí los condimentos necesarios y cubiertos (p.ej, servilletas, catsup, tenedor,popote, etc)', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-006-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi comida estuvo a la temperatura correcta?', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-006-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='La comida fué preparada a mi gusto y deliciosa?', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-006-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Clasificación de Church''s', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-007' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pienso regresar a Pollo Church''s pronto', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-007-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Por favor, califique su experiencia:', desc1='' WHERE version_id='CH.FC.2012.08' AND book_id='DV-007-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Me sentí respetado', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-001' AND language_code='es']]></statement>
+
+	<statement><![CDATA[UPDATE trans_book SET desc0='Me sentí respetado durante el servicio de hoy', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-001-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Exterior del Restaurante ', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El estacionamiento y establecimiento estuvieron limpios, iluminados y en buen estado', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-002-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Interior del Restaurante', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El vestíbulo y la  recepción estuvieron limpios y en buen estado', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-003-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='La estación de condimentos estaba limpia y bien equipada', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-003-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El comedor estaba limpio y bien cuidado', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-003-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Los baños estaban limpios, bien equipados y sin olor', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-003-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Proceso de pedido', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pedí:', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Alitas de pollo originales', desc1='PD00000001.png' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Sandwich de pollo original', desc1='PD00000002.png' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Sandwich doble de pollo y queso', desc1='PD00000003.png' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Buiscuits', desc1='PD00000004.png' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Papas a la francesa', desc1='PD00000005.png' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001-005' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Salsa cremosa de jalapeño', desc1='PD00000006.png' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001-006' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Salsa BBQ', desc1='PD00000007.png' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001-007' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pastel de Manzana', desc1='PD00000008.png' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001-008' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pastel de Fresas', desc1='PD00000009.png' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-001-009' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El menú fué fácil de leer', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='La voz del personal fué fácil de entender', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El personal fue respetuoso, amigable y servicial durante el proceso de la orden?', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi orden fue precisa', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-004-005' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Servicio al cliente', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-005' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Me atendieron rápidamente y de una manera respetuosa y amable.', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-005-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi tiempo de espera fue menos de 5 minutos?', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-005-002' AND language_code='es']]></statement>
+
+	<statement><![CDATA[UPDATE trans_book SET desc0='El personal fué atento y amigable?', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-005-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Fuí agradecido cordialmente e invitado otra vez?', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-005-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Orden', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-006' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Todo lo que ordené fué proporcionado correctamente y cordialmente?', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-006-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Recibí los condimentos necesarios y cubiertos (p.ej, servilletas, catsup, tenedor,popote, etc)', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-006-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi comida  y bebidas estuvieron a la temperatura correcta?', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-006-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='La comida fué preparada a mi gusto y deliciosa?', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-006-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Clasificación de Church''s', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-007' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Pienso regresar a Pollo Church''s pronto', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-007-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Por favor, califique su experiencia:', desc1='' WHERE version_id='CH.CO.2012.08' AND book_id='DV-007-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Servicio al cliente', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El gerente y personal fueron atentos a mis necesidades', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-001-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='La interacción del gerente y personal fue amigable', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-001-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi visita fue una gran experiencia', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-001-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Algo más', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-001-004' AND language_code='es']]></statement>
+
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi comida', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Lo que yo quería estaba disponible', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-002-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi comida estuvo fresca, caliente y deliciosa', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-002-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Mi orden estuvo completa', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-002-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Algo más', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-002-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Limpieza', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El comedor estaba limpio y atendido', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-003-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Los baños estaban limpios y atendidos', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-003-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='El auto servicio estaba limpio y atendido', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-003-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Los pisos estaban limpios y atendidos', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-003-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Algo más', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-003-005' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Velocidad de servicio', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-004' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='La línea de auto servicio fué rápida', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-004-001' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Recibí mi comida rápida', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-004-002' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Algo más', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-004-003' AND language_code='es']]></statement>
+	<statement><![CDATA[UPDATE trans_book SET desc0='Algo más', desc1='' WHERE version_id='CH.CMS.2012.08' AND book_id='CM-005' AND language_code='es']]></statement>
+
+	<statement><![CDATA[UPDATE conf_general SET param_value = '3', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+</sql>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="12">
+
+	<statement><![CDATA[ALTER TABLE user_profile ADD COLUMN frequency TEXT;]]></statement>
+	<statement><![CDATA[ALTER TABLE coupons ADD COLUMN scope TEXT;]]></statement>
+	<statement><![CDATA[ALTER TABLE coupons ADD COLUMN scope_value TEXT;]]></statement>
+
+	<statement><![CDATA[UPDATE conf_general SET param_value = '12', update_time = CURRENT_TIMESTAMP WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>

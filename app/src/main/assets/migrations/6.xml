@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="6">
+
+	<statement><![CDATA[ALTER TABLE user_profile ADD COLUMN app_version TEXT;]]></statement>
+	<statement><![CDATA[ALTER TABLE user_profile ADD COLUMN language_code TEXT DEFAULT 'en';]]></statement>
+
+	<statement><![CDATA[UPDATE conf_general SET param_value = '5', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>

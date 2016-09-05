@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="23">
+    <statement><![CDATA[ALTER TABLE sync_data ADD priority INTEGER;]]></statement>
+
+    <statement><![CDATA[UPDATE conf_general SET param_value = '23', update_time = strftime('now') WHERE param_name = 'DB_VERSION';]]></statement>
+</sql>
+

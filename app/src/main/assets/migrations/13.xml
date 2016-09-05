@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="13">
+	<statement><![CDATA[ALTER TABLE user_rewards ADD COLUMN last_survey_date DATETIME;]]></statement>
+	<statement><![CDATA[ALTER TABLE user_rewards ADD COLUMN last_perform_id TEXT;]]></statement>
+	<statement><![CDATA[UPDATE eval_perform SET lock_date = create_date WHERE IFNULL(lock_date,'') = ''; ]]></statement>
+
+	<statement><![CDATA[UPDATE conf_general SET param_value = '13', update_time = CURRENT_TIMESTAMP WHERE param_name = 'DB_VERSION';]]></statement>
+
+</sql>

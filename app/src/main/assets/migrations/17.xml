@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql version="17">
+	<statement><![CDATA[UPDATE conf_general SET param_value = '17', update_time = CURRENT_TIMESTAMP WHERE param_name = 'DB_VERSION';]]></statement>
+</sql>
