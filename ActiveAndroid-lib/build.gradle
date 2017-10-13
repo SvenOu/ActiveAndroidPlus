@@ -1,5 +1,5 @@
 apply plugin: 'java'
-apply from: 'gradle-mvn-push.gradle'
+//apply from: 'gradle-mvn-push.gradle'
 
 
 targetCompatibility = '1.7'
@@ -15,4 +15,9 @@ sourceSets {
 
 dependencies {
 	compile fileTree(dir: 'libs', include: '*.jar')
+}
+tasks.withType(Javadoc) {
+	options.addStringOption('Xdoclint:none', '-quiet')
+	options.addStringOption('encoding', 'UTF-8')
+	options.addStringOption('charSet', 'UTF-8')
 }
