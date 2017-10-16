@@ -2,6 +2,7 @@ package ou.sven.com.activeandroidtest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.activeandroid.Model;
 import com.activeandroid.query.Delete;
@@ -17,10 +18,13 @@ import ou.sven.com.activeandroidtest.db.Item;
 public class Main2Activity extends AppCompatActivity {
     private static final String TAG = Main2Activity.class.getSimpleName();
 
+    private TextView tvTag;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        tvTag = (TextView) findViewById(R.id.tv_tag);
+        tvTag.setText(BuildConfig.hello_text);
         dbTest();
     }
 
